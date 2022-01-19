@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <form onSubmit={onSubmit}>
-         <h1>Hello {fullName}{fullPassword}</h1>
+         <h1>Hello {fullName}  {fullPassword}</h1>
          <div>
          <input type="text" placeholder="Enter Your Name :" onChange={inputEvent} value={name}/>
 
